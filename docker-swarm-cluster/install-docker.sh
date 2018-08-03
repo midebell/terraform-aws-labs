@@ -1,5 +1,5 @@
 #!/bin/sh
-yum update
-yum install -y docker
-service docker start
-usermod -aG docker ec2-user
+sudo apt-get update
+sudo apt-get install -y docker
+sudo service docker start
+sudo usermod -aG docker ubuntu
